@@ -1,0 +1,305 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SC18IM700IPW
+LIBS:modules_droids
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "noname.sch"
+Date "11 aug 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SC18IM700IPW U?
+U 1 1 53E71C01
+P 2500 3150
+F 0 "U?" H 2500 3050 50  0000 C CNN
+F 1 "SC18IM700IPW" V 2500 3250 50  0000 C TNN
+F 2 "TSSOP16" H 2500 3150 50  0001 C CNN
+F 3 "DOCUMENTATION" H 2500 3150 50  0001 C CNN
+	1    2500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L XBEE U?
+U 1 1 53E7200D
+P 7950 3650
+F 0 "U?" H 7700 4750 60  0000 C CNN
+F 1 "XBEE" H 7750 4450 60  0000 C CNN
+F 2 "" H 7950 3650 60  0000 C CNN
+F 3 "" H 7950 3650 60  0000 C CNN
+	1    7950 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53E72521
+P 7050 4100
+F 0 "#PWR?" H 7050 4100 30  0001 C CNN
+F 1 "GND" H 7050 4030 30  0001 C CNN
+F 2 "" H 7050 4100 60  0000 C CNN
+F 3 "" H 7050 4100 60  0000 C CNN
+	1    7050 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53E72530
+P 1600 3100
+F 0 "#PWR?" H 1600 3100 30  0001 C CNN
+F 1 "GND" H 1600 3030 30  0001 C CNN
+F 2 "" H 1600 3100 60  0000 C CNN
+F 3 "" H 1600 3100 60  0000 C CNN
+	1    1600 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 3100 1600 3100
+Wire Wire Line
+	3450 3400 3250 3400
+Wire Wire Line
+	3450 3500 3250 3500
+Text Label 3450 3400 0    60   ~ 0
+SC_Tx_XB_Rx
+Text Label 3450 3500 0    60   ~ 0
+SC_Rx_XB_Tx
+Wire Wire Line
+	6800 3150 7050 3150
+Wire Wire Line
+	6800 3250 7050 3250
+Text Label 6800 3150 0    60   ~ 0
+SC_Rx_XB_Tx
+Text Label 6800 3250 0    60   ~ 0
+SC_Tx_XB_Rx
+Wire Wire Line
+	3450 3200 3250 3200
+Text Label 3450 3200 0    60   ~ 0
++3.3V
+Wire Wire Line
+	6800 2950 7050 2950
+Text Label 6800 2950 0    60   ~ 0
++3.3V
+Wire Wire Line
+	7050 4050 7050 4100
+$Comp
+L LD3985G33R U?
+U 1 1 53E849BA
+P 2500 1650
+F 0 "U?" H 2250 1850 40  0000 C CNN
+F 1 "LD3985G33R" H 2700 1850 40  0000 C CNN
+F 2 "TSOT-23-5" H 2500 1750 35  0000 C CIN
+F 3 "~" H 2500 1650 60  0000 C CNN
+	1    2500 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1600 2050 1750
+Wire Wire Line
+	1550 1600 2050 1600
+Wire Wire Line
+	2950 1600 3500 1600
+$Comp
+L CP1 C?
+U 1 1 53E84B29
+P 3150 1800
+F 0 "C?" H 3200 1900 50  0000 L CNN
+F 1 "CP1" H 3200 1700 50  0000 L CNN
+F 2 "~" H 3150 1800 60  0000 C CNN
+F 3 "~" H 3150 1800 60  0000 C CNN
+	1    3150 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 53E84B5D
+P 3500 1800
+F 0 "C?" H 3500 1900 40  0000 L CNN
+F 1 "C" H 3506 1715 40  0000 L CNN
+F 2 "~" H 3538 1650 30  0000 C CNN
+F 3 "~" H 3500 1800 60  0000 C CNN
+	1    3500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53E84B80
+P 3500 2000
+F 0 "#PWR?" H 3500 2000 30  0001 C CNN
+F 1 "GND" H 3500 1930 30  0001 C CNN
+F 2 "" H 3500 2000 60  0000 C CNN
+F 3 "" H 3500 2000 60  0000 C CNN
+	1    3500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53E84B9A
+P 3150 2000
+F 0 "#PWR?" H 3150 2000 30  0001 C CNN
+F 1 "GND" H 3150 1930 30  0001 C CNN
+F 2 "" H 3150 2000 60  0000 C CNN
+F 3 "" H 3150 2000 60  0000 C CNN
+	1    3150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 53E84BAF
+P 1850 1800
+F 0 "C?" H 1900 1900 50  0000 L CNN
+F 1 "CP1" H 1900 1700 50  0000 L CNN
+F 2 "~" H 1850 1800 60  0000 C CNN
+F 3 "~" H 1850 1800 60  0000 C CNN
+	1    1850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53E84BB9
+P 1850 2000
+F 0 "#PWR?" H 1850 2000 30  0001 C CNN
+F 1 "GND" H 1850 1930 30  0001 C CNN
+F 2 "" H 1850 2000 60  0000 C CNN
+F 3 "" H 1850 2000 60  0000 C CNN
+	1    1850 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 1600
+Text Label 1550 1600 0    60   ~ 0
+VCC
+Wire Wire Line
+	3500 1600 3500 1450
+Text Label 3500 1450 0    60   ~ 0
++3.3V
+Wire Wire Line
+	1450 2800 1750 2800
+Wire Wire Line
+	1450 2900 1750 2900
+Wire Wire Line
+	1450 3200 1750 3200
+Wire Wire Line
+	1450 3300 1750 3300
+Wire Wire Line
+	1450 3400 1750 3400
+Wire Wire Line
+	1450 3500 1750 3500
+Text Label 1450 2800 0    60   ~ 0
+GPIO0
+Text Label 1450 2900 0    60   ~ 0
+GPIO1
+Text Label 1450 3200 0    60   ~ 0
+GPIO2
+Text Label 1450 3300 0    60   ~ 0
+GPIO3
+Text Label 1450 3400 0    60   ~ 0
+SDA
+Text Label 1450 3500 0    60   ~ 0
+SCL
+Wire Wire Line
+	3250 2800 3500 2800
+Text Label 3500 2800 0    60   ~ 0
+GPIO7
+Wire Wire Line
+	3250 2900 3500 2900
+Wire Wire Line
+	3250 3000 3500 3000
+Wire Wire Line
+	3250 3100 3500 3100
+Wire Wire Line
+	3250 3300 3500 3300
+Text Label 3500 2900 0    60   ~ 0
+GPIO4
+Text Label 3500 3000 0    60   ~ 0
+GPIO5
+Text Label 3500 3100 0    60   ~ 0
+WAKE
+Text Label 3500 3300 0    60   ~ 0
+GPIO6
+Wire Wire Line
+	1750 3000 1450 3000
+Text Label 1450 3000 0    60   ~ 0
+I2CREST
+Wire Wire Line
+	9150 2950 8850 2950
+Wire Wire Line
+	9100 3050 8850 3050
+Wire Wire Line
+	8850 3150 9100 3150
+Wire Wire Line
+	8850 3250 9100 3250
+Wire Wire Line
+	9100 3350 8850 3350
+Wire Wire Line
+	9100 3450 8850 3450
+Wire Wire Line
+	9100 3550 8850 3550
+Wire Wire Line
+	9100 3650 8850 3650
+Wire Wire Line
+	8850 3750 9100 3750
+Wire Wire Line
+	7050 3450 6800 3450
+Wire Wire Line
+	6800 3550 7050 3550
+Wire Wire Line
+	7050 3850 6800 3850
+Wire Wire Line
+	8850 3950 9100 3950
+Wire Wire Line
+	9100 4050 8850 4050
+$Comp
+L R R?
+U 1 1 53E86F23
+P 5050 3150
+F 0 "R?" V 5130 3150 40  0000 C CNN
+F 1 "1k" V 5057 3151 40  0000 C CNN
+F 2 "~" V 4980 3150 30  0000 C CNN
+F 3 "~" H 5050 3150 30  0000 C CNN
+	1    5050 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2900 5050 2800
+Wire Wire Line
+	5050 3400 5050 3500
+Text Label 5050 2800 0    60   ~ 0
+3.3V
+Text Label 5050 3500 0    60   ~ 0
+WAKE
+$EndSCHEMATC
