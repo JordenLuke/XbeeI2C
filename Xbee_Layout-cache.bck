@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: 8/11/2014 2:16:02 PM
+#
+$CMP SC18IM700IPW
+D Uart To I2C master
+K Uart/I2C, I2C
+$ENDCMP
+#
+#End Doc Library
