@@ -29,7 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:SC18700IPW
+LIBS:sc18im700ipw
+LIBS:modules_droids
 LIBS:Xbee_Layout-cache
 EELAYER 27 0
 EELAYER END
@@ -45,17 +46,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L XBEE U?
-U 1 1 53E7200D
-P 8150 3400
-F 0 "U?" H 7900 4500 60  0000 C CNN
-F 1 "XBEE" H 7950 4200 60  0000 C CNN
-F 2 "" H 8150 3400 60  0000 C CNN
-F 3 "" H 8150 3400 60  0000 C CNN
-	1    8150 3400
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR?
 U 1 1 53E72521
@@ -485,6 +475,17 @@ F 1 "DIODE" H 2300 5500 40  0000 C CNN
 F 2 "~" H 2300 5600 60  0000 C CNN
 F 3 "~" H 2300 5600 60  0000 C CNN
 	1    2300 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L XBEE U?
+U 1 1 53EA5E0D
+P 8150 3400
+F 0 "U?" H 7900 4500 60  0000 C CNN
+F 1 "XBEE" H 7950 4200 60  0000 C CNN
+F 2 "" H 8150 3400 60  0000 C CNN
+F 3 "" H 8150 3400 60  0000 C CNN
+	1    8150 3400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
