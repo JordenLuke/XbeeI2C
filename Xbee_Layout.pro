@@ -1,4 +1,4 @@
-update=8/12/2014 12:31:23 PM
+update=8/12/2014 12:36:55 PM
 last_client=eeschema
 [eeschema]
 version=1
@@ -39,6 +39,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=modules_droids
-LibName32=sc18im700ipw
-LibName33=module_droids/modules_droids
+LibName31=module_droids/modules_droids
