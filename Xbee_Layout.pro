@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 update=8/12/2014 12:15:44 PM
 =======
-update=12/08/2014 11:49:48
+update=8/12/2014 12:24:35 PM
 >>>>>>> origin/master
 last_client=eeschema
 [eeschema]

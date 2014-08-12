@@ -29,7 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:SC18700IPW
+LIBS:sc18im700ipw
 LIBS:Xbee_Layout-cache
 EELAYER 27 0
 EELAYER END
