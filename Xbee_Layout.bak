@@ -29,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:SC18700IPW
 LIBS:Xbee_Layout-cache
 EELAYER 27 0
 EELAYER END
@@ -37,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "12 aug 2014"
+Date "11 aug 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +44,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L SC18IM700IPW U?
+U 1 1 53E71C01
+P 2500 3150
+F 0 "U?" V 2500 3050 50  0000 R CNN
+F 1 "SC18IM700IPW" V 2500 3250 50  0000 C TNN
+F 2 "TSSOP16" H 2500 3150 50  0001 C CNN
+F 3 "DOCUMENTATION" H 2500 3150 50  0001 C CNN
+	1    2500 3150
+	1    0    0    -1  
+$EndComp
 $Comp
 L XBEE U?
 U 1 1 53E7200D

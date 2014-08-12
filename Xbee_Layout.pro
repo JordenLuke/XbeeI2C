@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 update=8/12/2014 12:15:44 PM
-=======
-update=8/12/2014 12:24:35 PM
->>>>>>> origin/master
 last_client=eeschema
 [eeschema]
 version=1
