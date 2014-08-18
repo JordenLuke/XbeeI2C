@@ -1,0 +1,22 @@
+10nF,1,"C2",~,~
+1uF,3,"C4 C5 C6",~,~
+10uF,2,"C1 C3",~,~
+LED,4,"D1 Green1 Green2 RED1",~,~
+DIODE,1,"D2",~,~
+GS2,5,"GS1 GS2 GS3 GS4 GS5",~,~
+CONN_12,2,"P1 P2",,
+CONN_4X2,1,"P3",,,Molex,0901310764
+LIPO,1,"P4",,,4UCON,Unknown,Sparkfun,PRT-08612
+FTDI Breakout,1,"P5",,,4UCON,Unknown,Sparkfun,PRT-09015
+/RST,1,"P6",~,~
+Vref,1,"P7",~,~
+BSS138,2,"Q1 Q2",SOT-23,~
+30,2,"R4 R9",~,~
+220,4,"R3 R6 R7 R8",~,~
+1k,3,"R1 R2 R5",~,~
+10k,4,"R10 R11 R12 R13",~,~
+DNP,2,"R14 R15",~,~
+SW_PUSH,1,"SW1",~,~
+XBEE,1,"U3",,
+LD3985G33R,1,"U1",TSOT-23-5,~
+SC18IM700IPW,1,"U2",TSSOP-16,DOCUMENTATION
